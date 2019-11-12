@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D3 Tree Map</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header id="heading">
+        <ul id="menu">
+            <li><a href="#videogame"    id="videogameLink" class="active">Top Video Games</a></li>
+            <span> | </span>
+            <li><a href="#kickstarter"  id="kickstarterLink">Top Kickstarter Projects</a></li>
+            <span> | </span>
+            <li><a href="movies"        id="moviesLink">Top Movies</a></li>
+        </ul>
+        <div>
+            <h2 id="title"></h2>
+            <h3 id="description"></h3>
+        </div>
+    </header>
+    <div id="layout">
+    </div>
+    <footer>
+        <p>Designed and <span class="fas fa-code"></span> by Sergio Barbosa</p>
+    </footer>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./js/d3Render.js"></script>
+    <script src="https://kit.fontawesome.com/7be03a2a5a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
